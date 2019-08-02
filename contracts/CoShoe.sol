@@ -9,7 +9,7 @@ contract CoShoe {
         bool sold;
 
     }
-    uint256 price = 0.5*10**9;
+    uint256 price = 1;
     uint256 ShoesSold = 0;   
     Shoe[] public shoes;
     
@@ -18,11 +18,11 @@ contract CoShoe {
         shoes.push(Shoe(msg.sender,"","",false)) -1 ; 
     }
 
-    function buyShoe(string memory name,string memory image) public payable {
+    function buyShoe(string memory _name,string memory _image) public payable {
 
         require(shoes.length > 0 ,''); //check that there is still pair of shoes left has not been sold
-        require(msg.value == price, 'Price is not sufficient or too much'); // 
-        shoes.push(Shoe(msg.sender, name,image,true));
+        //require(price == msg.value, 'Price is not sufficient or too much'); // 
+        shoes.push(Shoe(msg.sender, _name,_image,true));
         ShoesSold++;
 
     }
