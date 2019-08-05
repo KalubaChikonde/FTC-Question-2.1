@@ -62,7 +62,7 @@
       "payable": false,
       "stateMutability": "view",
       "type": "function",
-      "signature": "0x540a2f4f"
+      "signature": "0x00f1dba1"
     },
     {
       "constant": false,
@@ -86,7 +86,7 @@
       "payable": true,
       "stateMutability": "payable",
       "type": "function",
-      "signature": "0x558a2b8b"
+      "signature": "0x540a2f4f"
     },
     {
       "constant": true,
@@ -101,7 +101,7 @@
       "payable": false,
       "stateMutability": "view",
       "type": "function",
-      "signature": "0xd616af5b"
+      "signature": "0x558a2b8b"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.5.0+commit.1d4f565a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"_name\",\"type\":\"string\"},{\"name\":\"_image\",\"type\":\"string\"}],\"name\":\"buyShoe\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"checkPurchases\",\"outputs\":[{\"name\":\"\",\"type\":\"bool[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"shoes\",\"outputs\":[{\"name\":\"owner\",\"type\":\"address\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"image\",\"type\":\"string\"},{\"name\":\"sold\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getNumberOfShoes\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/kalubachikonde/Documents/GitHub/Fintech-and-Cryptocurrencies-Exam/contracts/CoShoe.sol\":\"CoShoe\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/kalubachikonde/Documents/GitHub/Fintech-and-Cryptocurrencies-Exam/contracts/CoShoe.sol\":{\"keccak256\":\"0xcdbd130abd715fddeb21b10297b0a758f44bdfd00a68c9e49e60bc7921521d2b\",\"urls\":[\"bzzr://8de137273fa963144ca89d08e9a6d5d4179e5d1cecd1beb33f291c63ed718c5f\"]}},\"version\":1}",
@@ -14229,12 +14229,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x64E40d65f2D3c4b4F9817cf12f0C3e736f4bBF4A",
-      "transactionHash": "0x3503a8855924d9c93b4174f01a150a76caae250a85eb2927c84dc27a48bbbad9"
+      "address": "0x43154f135538B59FB5F552D86B84e1741A77de83",
+      "transactionHash": "0x7b0b94baf5116b91264ec147e863fcd3ce17bdc41d4cc371232c600a68f7c6b7"
     }
   },
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-08-05T03:04:54.582Z",
+  "updatedAt": "2019-08-05T06:47:04.777Z",
   "devdoc": {
     "methods": {}
   },
