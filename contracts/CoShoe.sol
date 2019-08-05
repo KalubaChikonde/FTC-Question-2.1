@@ -23,6 +23,11 @@ contract CoShoe {
     
         }
     }
+
+    //gets number of shoes in shoes array
+    function getNumberOfShoes() public view returns(uint) {
+        return shoes.length;
+    }
       // function  to buy a shoe gievn name and image
     function buyShoe(string memory _name,string memory _image)public payable returns(uint) {
         require(price == msg.value, 'Price is not sufficient or too much'); 
@@ -35,7 +40,7 @@ contract CoShoe {
         shoes[soldShoe].name = _name;
         shoes[soldShoe].image = _image;
         shoes[soldShoe].sold = true;
-        ShoesSold+=1;  //update shoes sold
+        ShoesSold = ShoesSold + 1 ;  //update shoes sold
         return ShoesSold;
     }
 
@@ -52,8 +57,5 @@ contract CoShoe {
         return Buy;
 
   }
-    //gets number of shoes in shoes array
-    function getNumberOfShoes() public view returns(uint) {
-        return shoes.length;
-    }
+    
 }
